@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/StreamingApiMambu/StreamingApiMambu.csproj": {}
+  },
+  "projects": {
+    "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuDbServer/MambuDbServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuDbServer/MambuDbServer.csproj",
+        "projectName": "MambuDbServer",
+        "projectPath": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuDbServer/MambuDbServer.csproj",
+        "packagesPath": "/Users/alexis.salinas@mambu.com/.nuget/packages/",
+        "outputPath": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuDbServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexis.salinas@mambu.com/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuStreamingReader/MambuStreamingReader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuStreamingReader/MambuStreamingReader.csproj",
+        "projectName": "MambuStreamingReader",
+        "projectPath": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuStreamingReader/MambuStreamingReader.csproj",
+        "packagesPath": "/Users/alexis.salinas@mambu.com/.nuget/packages/",
+        "outputPath": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuStreamingReader/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexis.salinas@mambu.com/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuDbServer/MambuDbServer.csproj": {
+                "projectPath": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuDbServer/MambuDbServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/StreamingApiMambu/StreamingApiMambu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/StreamingApiMambu/StreamingApiMambu.csproj",
+        "projectName": "StreamingApiMambu",
+        "projectPath": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/StreamingApiMambu/StreamingApiMambu.csproj",
+        "packagesPath": "/Users/alexis.salinas@mambu.com/.nuget/packages/",
+        "outputPath": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/StreamingApiMambu/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexis.salinas@mambu.com/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuStreamingReader/MambuStreamingReader.csproj": {
+                "projectPath": "/Users/alexis.salinas@mambu.com/src/Projects/TestForm/MambuStreamingReader/MambuStreamingReader.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.10, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "jquery.datatables": {
+              "target": "Package",
+              "version": "[1.10.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

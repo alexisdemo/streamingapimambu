@@ -1,0 +1,12 @@
+/Users/salinas/Projects/TestForm/MambuStreamingReader/bin/Release/netcoreapp3.1/MambuStreamingReader.deps.json
+/Users/salinas/Projects/TestForm/MambuStreamingReader/bin/Release/netcoreapp3.1/MambuStreamingReader.dll
+/Users/salinas/Projects/TestForm/MambuStreamingReader/bin/Release/netcoreapp3.1/MambuStreamingReader.pdb
+/Users/salinas/Projects/TestForm/MambuStreamingReader/bin/Release/netcoreapp3.1/MambuDbServer.dll
+/Users/salinas/Projects/TestForm/MambuStreamingReader/bin/Release/netcoreapp3.1/MambuDbServer.pdb
+/Users/salinas/Projects/TestForm/MambuStreamingReader/obj/Release/netcoreapp3.1/MambuStreamingReader.csproj.AssemblyReference.cache
+/Users/salinas/Projects/TestForm/MambuStreamingReader/obj/Release/netcoreapp3.1/MambuStreamingReader.AssemblyInfoInputs.cache
+/Users/salinas/Projects/TestForm/MambuStreamingReader/obj/Release/netcoreapp3.1/MambuStreamingReader.AssemblyInfo.cs
+/Users/salinas/Projects/TestForm/MambuStreamingReader/obj/Release/netcoreapp3.1/MambuStreamingReader.csproj.CoreCompileInputs.cache
+/Users/salinas/Projects/TestForm/MambuStreamingReader/obj/Release/netcoreapp3.1/MambuStreamingReader.csproj.CopyComplete
+/Users/salinas/Projects/TestForm/MambuStreamingReader/obj/Release/netcoreapp3.1/MambuStreamingReader.dll
+/Users/salinas/Projects/TestForm/MambuStreamingReader/obj/Release/netcoreapp3.1/MambuStreamingReader.pdb

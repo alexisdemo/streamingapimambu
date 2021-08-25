@@ -1,0 +1,9 @@
+/Users/salinas/Projects/TestForm/MambuDbServer/bin/Debug/netcoreapp3.1/MambuDbServer.deps.json
+/Users/salinas/Projects/TestForm/MambuDbServer/bin/Debug/netcoreapp3.1/MambuDbServer.dll
+/Users/salinas/Projects/TestForm/MambuDbServer/bin/Debug/netcoreapp3.1/MambuDbServer.pdb
+/Users/salinas/Projects/TestForm/MambuDbServer/obj/Debug/netcoreapp3.1/MambuDbServer.csproj.AssemblyReference.cache
+/Users/salinas/Projects/TestForm/MambuDbServer/obj/Debug/netcoreapp3.1/MambuDbServer.AssemblyInfoInputs.cache
+/Users/salinas/Projects/TestForm/MambuDbServer/obj/Debug/netcoreapp3.1/MambuDbServer.AssemblyInfo.cs
+/Users/salinas/Projects/TestForm/MambuDbServer/obj/Debug/netcoreapp3.1/MambuDbServer.csproj.CoreCompileInputs.cache
+/Users/salinas/Projects/TestForm/MambuDbServer/obj/Debug/netcoreapp3.1/MambuDbServer.dll
+/Users/salinas/Projects/TestForm/MambuDbServer/obj/Debug/netcoreapp3.1/MambuDbServer.pdb

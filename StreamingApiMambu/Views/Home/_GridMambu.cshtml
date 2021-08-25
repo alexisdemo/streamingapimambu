@@ -1,0 +1,41 @@
+﻿<div class="container">
+    @Html.ActionLink("Refresh", "Refresh", "Home", null, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Exportar CSV", "ExportCsv", "Home", null, new { @class = "btn btn-success" })
+    @Html.ActionLink("Limpiar", "Clear", "Home", null, new { @class = "btn btn-warning" })
+
+
+
+
+    <table id="myTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Mensaje</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+<script>$(document).ready(function () {
+        $('#myTable').DataTable({
+            "processing": false, // for show progress bar
+            "serverSide": true, // for process server side
+            "filter": true, // this is for disab({e filter (search box)
+            "orderMulti": false, // for disable multiple column at once
+            "pageLength": 10,
+
+
+            "ajax": {
+                "url": "/Home/LoadData",
+                "type": "POST",
+                "datatype": 'json'
+            },
+
+
+
+            "columns": [
+                { "data": "uuid", "autoWidth": true },
+                { "data": "mensaje", "autoWidth": true },
+            ]
+
+        });
+    });</script>

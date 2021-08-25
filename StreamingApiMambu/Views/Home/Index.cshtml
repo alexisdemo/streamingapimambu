@@ -1,0 +1,75 @@
+﻿@model StreamingApiMambu.Models.RequestStreamingApi;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Mambu App - Streaming API</h1>
+</div>
+
+
+@if (ViewBag.SystemWarningMessage != null)
+{
+    <div>
+        <div class="alert alert-danger" role="alert">
+
+            ViewBag.SystemWarningMessage
+            <br />
+
+        </div>
+    </div>
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { id = "empform" }))
+{
+<div class="form-row">
+
+    <div class="col-md-12">
+        @Html.LabelFor(Model => Model.MambuServer, "StreamingApiMambu Server")
+        @Html.TextBoxFor(Model => Model.MambuServer, new { @class = "form-control" })
+    </div>
+
+
+    <div class="col">
+        @Html.LabelFor(Model => Model.ApiKey, "Api Key")
+        @Html.TextBoxFor(Model => Model.ApiKey, new { @class = "form-control" })
+    </div>
+    <div class="col">
+        @Html.LabelFor(Model => Model.TimeExecution, "Time Execution")
+        @Html.TextBoxFor(Model => Model.TimeExecution, new { @class = "form-control" })
+    </div>
+
+    <div class="col-12">
+        @Html.LabelFor(Model => Model.Topic, "Topic")
+        @Html.TextBoxFor(Model => Model.Topic, new { @class = "form-control" })
+    </div>
+
+    @*<div class="col-12">
+            <div class="form-check">
+                @Html.CheckBoxFor(Model => Model.WriteInDB, new { @class = "form-check-input" })
+                @Html.LabelFor(Model => Model.WriteInDB, "Write in DB?", new { @class = "form-check-label" })
+
+            </div>
+        </div>*@
+
+    @if (TempData["EnableExecute"] == null || TempData["EnableExecute"].ToString() == "true")
+    {
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Ejecutar Lectura</button>
+        </div>
+    }
+    else
+    {
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary disabled" disabled>Ejecutar Lectura</button>
+        </div>
+    }
+
+
+</div>
+}
+
+<br />
+@Html.Partial("_GridMambu")
+
+
